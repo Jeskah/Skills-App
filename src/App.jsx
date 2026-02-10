@@ -2,9 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import Landing from "./pages/Landing.jsx";
 import Start from "./pages/Skills.jsx";
 import Photographers from "./pages/Photographers.jsx";
-// import './pages/Skills.jsx'
-// import './pages/Photographers.jsx'
-// import './pages/Landing.jsx'
+import Profile from "./components/ProfileCard.jsx";
 
 
 export default function App() {

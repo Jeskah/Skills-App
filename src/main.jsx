@@ -8,7 +8,7 @@ import './index.css'
 import './pages/skills.css'
 import './pages/photographers.css'
 import './pages/landing.css'
-
+import './components/profilecard.css'
 // import './pages/Skills.jsx'
 // import './pages/Photographers.jsx'
 // import './pages/Landing.jsx'

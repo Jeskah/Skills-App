@@ -1,6 +1,5 @@
 import { useNavigate } from "react-router-dom";
 
-
 export default function Landing() {
     const navigate = useNavigate();
 
@@ -15,13 +14,13 @@ export default function Landing() {
 
             <button className="start-btn" onClick ={ () => navigate("./start") }>START ❭
             </button>
-    <div className="skull">
+
         <img
         src="https://static.vecteezy.com/system/resources/previews/012/895/895/original/cute-cowboy-skull-in-pink-color-illustration-for-clip-art-and-design-element-png.png" 
         alt="skull" 
         className="skull"
         />
-    </div>
+
 
         </div>
         </div>

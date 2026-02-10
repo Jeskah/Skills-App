@@ -1,11 +1,17 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import { BrowserRouter } from 'react-router-dom'
+
 import App from './App.jsx'
-import './pages/Skills.jsx'
+
 import './index.css'
 import './pages/skills.css'
+import './pages/photographers.css'
 import './pages/landing.css'
+
+// import './pages/Skills.jsx'
+// import './pages/Photographers.jsx'
+// import './pages/Landing.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>

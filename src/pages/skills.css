@@ -131,6 +131,18 @@ h1 {
         align-items: center;
     }
 
+        .seemore:hover {
+        color: #dadfd9;
+    }
+
+.skull {
+  display: inline;
+  position: absolute;
+  bottom: 0;
+  right: 2em;
+  height: 12em;
+  padding: 1em;
+}
 
 
     @media (prefers-color-scheme: light) {
@@ -139,7 +151,7 @@ h1 {
         background-color: #ffffff;
     }
     a:hover {
-        color: #747bff;
+        color: #89ff74;
     }
     button {
         background-color: #f9f9f9;

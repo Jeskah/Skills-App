@@ -37,17 +37,16 @@ button.start-btn {
 }
 
 h1 {
-  padding: 0.3em;
   margin: 0;
   line-height: 1em;
   font-size: 6em;
   letter-spacing: 0.03em;
   color:  #fa5959;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 
-h3.cta {
+h3 {
   padding: 2em 0 2em 0;
 }
 
@@ -75,10 +74,15 @@ button:focus-visible {
 }
 
 
-img.skull {
-  height: 10em;
-  align-items: center;
+.skull {
+  display: inline;
+  position: absolute;
+  bottom: 0;
+  right: 2em;
+  height: 12em;
+  padding: 1em;
 }
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;

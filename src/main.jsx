@@ -9,9 +9,8 @@ import './pages/skills.css'
 import './pages/photographers.css'
 import './pages/landing.css'
 import './components/profilecard.css'
-// import './pages/Skills.jsx'
-// import './pages/Photographers.jsx'
-// import './pages/Landing.jsx'
+import './components/profilecard1.css'
+
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>

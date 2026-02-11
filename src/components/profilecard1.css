@@ -6,28 +6,36 @@
   flex-wrap: wrap;
 }
 
-.profile-card {
-  background-color: #f94762;
-  display: flex;
-  flex-direction: column;
+div.online {
+  bottom: 41em;
+  width: 5em;
+  height: auto;
+  font-size: 0.4em;
+  font-weight: 600;
+  color: #181818;
   align-items: center;
-  border-radius: 1em 1em 1em 1em;
-  height: 20em;
-  width: 11em;
-  overflow: hidden;
-}
-
-.online {
-  bottom: 1em;
-  background-color: #f94762;
+  background-color: #c2e8aebd;
   position: absolute;
-  display: flex;
+  text-align: center;
+
   z-index: 1;
-  flex-direction: row;
-  flex-wrap: wrap;
+
   padding: 0.2em;
 }
 
+
+.watch {
+  bottom: 5.6em;
+  display: flex;
+  width: 2em;
+  position: absolute;
+  cursor: pointer;
+
+}
+
+.watch :hover {
+  filter:opacity(0.5)
+}
 img.profile-picture {
   object-fit: cover;
   width: 20em;
@@ -37,12 +45,7 @@ img.profile-picture {
 .name {
   padding: 1em;
 }
-.bio {
-  display: flex;
-  font-size: 0.4em;
-  flex-wrap: wrap;
-  gap: 1em;
-}
+
 .skills {
   display: flex;
   flex-direction: row;
@@ -69,13 +72,13 @@ span {
 }
 
 button.hire {
-  bottom: 0;
+  padding: 1.5em;
   /* border: solid rgb(155, 143, 143); */
   border-radius: 0;
   color: rgb(239, 233, 233);;
-  font-size: 0.7em;
-  height: 3em;
-  width: 8em;
+  font-size: 0.4em;
+  height: 2em;
+  width: auto;
 }
 
 
